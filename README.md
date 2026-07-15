@@ -1,1 +1,2 @@
 # BrainBridge
+I am creating this project to help learn more about the software process behind brain computer interfaces and neuroprosthetics. Brain computer interfaces are devices that read and react to brain signals, neuroprosthetics are brain computer interfaces that aim to restore function to damaged parts of the brain. I aim to use this repository to track my progress as I learn.
