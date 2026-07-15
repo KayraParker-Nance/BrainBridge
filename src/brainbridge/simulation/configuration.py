@@ -1,5 +1,5 @@
 class Configuration:
-    def __init__(self, configs):
+    def __init__(self, configs = {}):
         self.configs = configs
 
     def get(self, key, default=None):

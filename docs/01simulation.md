@@ -37,7 +37,6 @@ classDiagram
     SimulationClock <|.. Simulation
     Logger <|.. Simulation
     Component <|.. Simulation
-
 ```
 ## Chain of Events
 When the simulation begins it updates all components and logs all updates. Then the clock is updated and the simulation continues until the total duration is reached.
