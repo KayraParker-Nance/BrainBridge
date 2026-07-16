@@ -1,4 +1,7 @@
-class Neuron:
+from brainbridge.simulation.component import Component
+
+
+class Neuron(Component):
     def __init__(self, id, restingV, thresholdV):
         self.id = id
         self.restingV = restingV
@@ -22,3 +25,10 @@ class Neuron:
 
     def update(self):
         pass
+
+    def add_synapse(self, synapse):
+        self.outgoing_synapses.append(synapse)
+
+    def remove_synapse(self, synapse):
+        if synapse in self.outgoing_synapses:
+            self.outgoing_synapses.remove(synapse)
