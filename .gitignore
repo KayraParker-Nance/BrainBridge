@@ -219,3 +219,13 @@ __marimo__/
 
 # Checklist
 checklist.md
+
+# Python
+*.py[cod]
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
