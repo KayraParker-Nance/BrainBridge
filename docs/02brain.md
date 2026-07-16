@@ -38,8 +38,12 @@ class NeuronGroup{
 +removeNeuron()
 }
 class Brain{
-+neuronGroups[]
-+update()
+    +name
+    +id
+    +neuronGroups[]
+    +update()
+    +addNeuronGroup()
++removeNeuronGrou()
 }
 class Synapse{
     +targetNeuron
