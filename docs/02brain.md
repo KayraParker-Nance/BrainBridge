@@ -49,7 +49,7 @@ class Synapse{
     +targetNeuron
     +weight
     +delay
-    +transmit()
+    +transmitSignal()
 }
 
 NeuronGroup <|.. Brain
