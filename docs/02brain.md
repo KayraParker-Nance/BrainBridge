@@ -26,12 +26,16 @@ class Neuron{
 +recieveSignal()
 +reset()
 +update()
++addSynapse()
++removeSynapse()
 }
 class NeuronGroup{
 +name
 +id
 +neurons[]
 +update()
++addNeuron()
++removeNeuron()
 }
 class Brain{
 +neuronGroups[]
